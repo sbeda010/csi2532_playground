@@ -8,10 +8,3 @@ CREATE TABLE athletes (
   identified_gender varchar(6),
   PRIMARY KEY (id)
 );
-
-CREATE TABLE schema_migrations
-(
-	migration varchar(255),
-	migrated_at time,
-	PRIMARY KEY (migration)
-);
