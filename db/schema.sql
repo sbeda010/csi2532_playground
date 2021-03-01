@@ -5,7 +5,7 @@ CREATE TABLE athletes (
   modified timestamp,
   name varchar(50),
   dob date,
-  identified_gender varchar(6),
+  gender varchar(6),
   PRIMARY KEY (id)
 );
 
